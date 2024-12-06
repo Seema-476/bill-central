@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import CustomButton from '../common/CustomButton'
 import heroImg from '../assets/images/png/hero-image.png'
+import Description from '../common/Description'
 
 const Hero = () => {
   return (
@@ -13,7 +14,8 @@ const Hero = () => {
             <h1 className="font-normal text-white xl:text-[64px] md:text-5xl md:leading-[56px] text-4xl xl:leading-[70px] max-w-[612px] max-lg:text-center max-lg:mx-auto">
               Easily Compare <span className='font-bold'>Energy, Gas, And Internet</span> Plans
             </h1>
-            <p className='font-normal lg:text-base text-sm text-white opacity-90 max-w-[506px] pt-4 md:pb-[42px] pb-8 max-lg:text-center max-lg:mx-auto'>Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place.</p>
+            <Description text="Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place."
+              classStyle="max-w-[506px] pt-4 md:pb-[42px] pb-8"/>       
             <div className='flex justify-between md:p-[9px_9px_9px_22px] p-[7px_7px_7px_18px] bg-white rounded-tr-[100px] rounded-br-[100px] rounded-bl-[20px] max-w-[476px] max-lg:mx-auto'>
               <input type="text" placeholder='Start typing your address' className='outline-none font-normal md:text-base text-sm md:leading-5' />
               <CustomButton text="Compare"/>

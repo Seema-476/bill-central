@@ -35,7 +35,7 @@ const Header = () => {
               {HEADER_BTNS.map((obj, index) => (
                 <ul key={index} className='flex'>
                   <li>
-                    <a href="#" className='font-normal whitespace-nowrap text-base leading-[18.4px] text-white opacity-80 relative after:absolute after:contents-[""] after:bg-white after:w-0 after:h-[.80px] after:bottom-0 after:left-0 after:duration-700 hover:after:w-full'>
+                    <a href="#" className='font-normal whitespace-nowrap text-base leading-[18.4px] text-white opacity-80 hover:opacity-[1] duration-700 relative after:absolute after:contents-[""] after:bg-white after:w-0 after:h-[.80px] after:bottom-0 after:left-0 after:duration-700 hover:after:w-full'>
                       {obj.btn}
                     </a>
                   </li>
