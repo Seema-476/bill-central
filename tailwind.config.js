@@ -20,6 +20,7 @@ module.exports = {
       colors: {
         'sky-blue': "#00A8E8",
         'deep-blue': "#003459",
+        'dark-blue': "#00171f",
       },
       boxShadow: {
       },
