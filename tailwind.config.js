@@ -21,11 +21,12 @@ module.exports = {
         'sky-blue': "#00A8E8",
         'deep-blue': "#003459",
         'dark-blue': "#00171f",
+        'off-white': "#fefefe",
       },
       boxShadow: {
       },
       backgroundImage: {
-        'hero-bg': "url('./assets/images/png/hero-bg.png')",
+        'hero-bg': "url('/public/assets/images/webp/hero-bg.webp')",
       },
       fontFamily: {
         'helvetica': "'helvetica',sans serif",

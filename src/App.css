@@ -3,12 +3,12 @@
 }
  @font-face {
      font-family: 'helvetica';
-     src: url("./assets/font/Helvetica-Font/Helvetica.ttf");
+     src: url("../public/assets/font/Helvetica-Font/Helvetica.ttf");
      font-weight: 400;
  }
 
   @font-face {
       font-family: 'helvetica';
-      src: url("./assets/font/Helvetica-Font/HelveticaBold.ttf");
+      src: url("../public/assets/font/Helvetica-Font/HelveticaBold.ttf");
       font-weight: 700;
   }
