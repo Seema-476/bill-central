@@ -4,6 +4,7 @@ import CustomButton from '../common/CustomButton'
 import heroImg from '../assets/images/png/hero-image.png'
 import Description from '../common/Description'
 import dotsElipImg from '../assets/images/png/dots-elip.png'
+import Input from '../common/Input'
 
 const Hero = () => {
   return (
@@ -19,8 +20,8 @@ const Hero = () => {
               <Description text="Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place."
                 classStyle="max-w-[506px] pt-4 md:pb-[42px] pb-8" />
           
-            <div className='flex justify-between md:p-[9px_9px_9px_22px] p-[7px_7px_7px_18px] bg-white rounded-tr-[100px] rounded-br-[100px] rounded-bl-[20px] max-w-[476px] w-full max-lg:mx-auto'>
-              <input type="text" placeholder='Start typing your address' classStyle='outline-none font-normal md:text-base text-sm md:leading-5 !w-full !placeholder:text-dark-blue !text-dark-blue' />
+            <div className='flex justify-between md:p-[9px_9px_9px_22px] p-[7px_7px_7px_18px] bg-white rounded-tr-[100px] rounded-br-[100px] rounded-bl-[20px] max-w-[476px] max-lg:mx-auto'>
+              <Input type="text" text="Start typing your address" classStyle='outline-none font-normal md:text-base text-sm md:leading-5 !w-full !placeholder:text-dark-blue !text-dark-blue' />
               <CustomButton text="Compare" classStyle="fill-white" />
             </div>
           </div>
