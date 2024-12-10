@@ -12,3 +12,13 @@
       src: url("../public/assets/font/Helvetica-Font/HelveticaBold.ttf");
       font-weight: 700;
   }
+.swiper-button-next:after {
+    display: none;
+}
+
+.swiper-button-prev:after {
+    display: none !important;
+}
+.swiper-wrapper{
+    margin-bottom: 50px;
+}
