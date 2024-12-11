@@ -1,18 +1,28 @@
 import './App.css';
-import CompaniesLogo from './components/CompaniesLogo';
-import ComprehensiveUtility from './components/ComprehensiveUtility';
-import Hero from './components/Hero';
-import SimpleSteps from './components/SimpleSteps';
-import SwitchingEnergy from './components/SwitchingEnergy';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/view/Home';
+import About from './components/view/About';
+import Work from './components/view/Work';
+import WhyUs from './components/view/WhyUs';
+import Services from './components/view/Services';
+import Testimonials from './components/view/Testimonials';
+import Faq from './components/view/Faq';
+
 
 function App() {
   return (
     <>
-      <Hero />
-      <CompaniesLogo />
-      <SwitchingEnergy />
-      <SimpleSteps />
-      <ComprehensiveUtility/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/work' element={<Work />} />
+          <Route path='/whyus' element={<WhyUs />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/testimonials' element={<Testimonials />} />
+          <Route path='/faq' element={<Faq />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

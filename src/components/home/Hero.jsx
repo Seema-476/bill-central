@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from './Header'
-import CustomButton from '../common/CustomButton'
-import Description from '../common/Description'
-import CustomInput from '../common/CustomInput'
+import Header from '../../components/home/Header'
+import CustomButton from '../../common/CustomButton'
+import Description from '../../common/Description'
+import CustomInput from '../../common/CustomInput'
 
 const Hero = () => {
   return (

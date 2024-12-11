@@ -1,5 +1,5 @@
 import { Blub, Gas, Internet, Bundle } from "./Icons"
-export const HEADER_TITLE = [{ title: "About", link: "about" }, { title: "How It Works", link: "work" }, { title: "Services", link: "services" }, { title: "Testimonials", link: "testimonials" }, { title: "Why Us", link: "whyus" }, { title: "FAQ", link: "faq" },]
+export const HEADER_TITLE = [{ title: "About", path: "/about" }, { title: "How It Works", path: "/work" }, { title: "Services", path: "/services" }, { title: "Testimonials", path: "/testimonials" }, { title: "Why Us", path: "/whyus" }, { title: "FAQ", path: "/faq" },]
 export const LOGO_LIST = [{ src: "/assets/images/webp/first-energy.webp", alt: "first-image" },
     { src: "/assets/images/webp/blue-nrg.webp", alt: "blue" },
     { src: "/assets/images/webp/dodo.webp", alt: "dodo" },
@@ -40,5 +40,63 @@ export const COMPREHENSIVE_DETAILS = [
         question: 'Bundle Packages',
         comparisonsSvg: <Bundle />,
         answer: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider.",
+    },
+]
+export const DATA = [
+    {
+        title: "Simplified Comparison Process",
+        description: "Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision.",
+        imgSrc: "/assets/images/svg/simplified-comparison.svg",
+        altText: "comparison",
+    },
+    {
+        title: "Save Time and Money",
+        description: "With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available.",
+        imgSrc: "/assets/images/svg/save-time.svg",
+        altText: "save",
+    },
+    {
+        title: "No Service Interruptions",
+        description: "We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime.",
+        imgSrc: "/assets/images/svg/no-service.svg",
+        altText: "service",
+    },
+    {
+        title: "Comprehensive Support",
+        description: "Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way.",
+        imgSrc: "/assets/images/svg/comprehensive-support.svg",
+        altText: "comprehensive",
+    },
+]
+export const SLIDES = [
+    {
+        name: "Cameron",
+        username: "@cameron",
+        imageUrl: "/assets/images/webp/cameron.webp",
+        description: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.",
+    },
+    {
+        name: "Ronald",
+        username: "@ronald",
+        imageUrl: "/assets/images/webp/ronald.webp",
+        description: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.",
+    },
+    {
+        name: "Jay Shah",
+        username: "@jayshah",
+        imageUrl: "/assets/images/webp/jayshah.webp",
+        description: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.",
+    },
+    {
+        name: "Cameron",
+        username: "@cameron",
+        imageUrl: "/assets/images/webp/cameron.webp",
+        description: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.",
+    },
+    {
+        name: "Jay Shah",
+        username: "@jayshah",
+        imageUrl: "/assets/images/webp/jayshah.webp",
+        description: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.",
     },
 ]

@@ -13,12 +13,25 @@
       font-weight: 700;
   }
 .swiper-button-next:after {
-    display: none;
+display: none;
+}
+.swiper-button-prev{
+        left: var(--swiper-navigation-sides-offset, -52px) !important;
+}
+.swiper-button-next{
+        right: var(--swiper-navigation-sides-offset, -52px) !important;
 }
 
 .swiper-button-prev:after {
-    display: none !important;
+  display: none;
 }
 .swiper-wrapper{
     margin-bottom: 50px;
+}
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background: #00A8E8;
 }

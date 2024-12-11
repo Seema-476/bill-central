@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import { HEADER_TITLE } from '../utils/Helper';
-import CustomButton from '../common/CustomButton';
+import { HEADER_TITLE } from '../../utils/Helper';
+import CustomButton from '../../common/CustomButton';
+import {Link} from 'react-router-dom'
 
 const Header = () => {
   const [isMenuOpen, setOpenNav] = useState(false);
@@ -32,13 +33,15 @@ const Header = () => {
             </div>
             <div className={`menuList gap-6 ${isMenuOpen ? 'max-lg:right-0' : 'max-lg:right-[-100%]'} z-20 max-lg:w-full max-lg:fixed max-lg:justify-center max-lg:flex-col max-lg:gap-7 max-lg:top-0 max-lg:bg-deep-blue max-lg:transition-all duration-300 flex items-center max-lg:min-h-screen`}>
               {HEADER_TITLE.map((obj, index) => (
-                <ul key={index} className='flex'>
-                  <li>
-                    <a href="#" className='font-normal whitespace-nowrap text-base leading-[18.4px] text-white opacity-80 hover:opacity-[1] duration-700 relative z-30 after:absolute after:contents-[""] after:bg-white after:w-0 after:h-[.80px] after:bottom-0 after:left-0 after:duration-700 hover:after:w-full'>
-                      {obj.title}
-                    </a>
-                  </li>
-                </ul>
+                <Link to={obj.path}>
+                  <ul key={index} className='flex'>
+                    <li>
+                      <a href="#" className='font-normal whitespace-nowrap text-base leading-[18.4px] text-white opacity-80 hover:opacity-[1] duration-700 relative z-30 after:absolute after:contents-[""] after:bg-white after:w-0 after:h-[.80px] after:bottom-0 after:left-0 after:duration-700 hover:after:w-full'>
+                        {obj.title}
+                      </a>
+                    </li>                  
+                  </ul>
+                </Link>
               ))}
                 <CustomButton text="Get Started" classStyle="bg-white !text-black lg:hidden"/>
             </div>
