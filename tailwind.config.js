@@ -41,7 +41,7 @@ module.exports = {
         'gray': "#0000001A",
       },
       boxShadow: {
-        'custom-xl': "#0000001A",
+        'custom-xl':"0px 0px 13.9px 0px #0000001A",
       },
       backgroundImage: {
         'hero-bg': "url('/public/assets/images/webp/hero-bg.webp')",

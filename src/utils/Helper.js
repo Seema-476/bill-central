@@ -1,4 +1,4 @@
-import { Blub,Gas,Arrow, Internet, Bundle } from "./Icons"
+import { Blub, Gas, Internet, Bundle } from "./Icons"
 export const HEADER_TITLE = [{ title: "About", link: "about" }, { title: "How It Works", link: "work" }, { title: "Services", link: "services" }, { title: "Testimonials", link: "testimonials" }, { title: "Why Us", link: "whyus" }, { title: "FAQ", link: "faq" },]
 export const LOGO_LIST = [{ src: "/assets/images/webp/first-energy.webp", alt: "first-image" },
     { src: "/assets/images/webp/blue-nrg.webp", alt: "blue" },
@@ -8,9 +8,10 @@ export const LOGO_LIST = [{ src: "/assets/images/webp/first-energy.webp", alt: "
     { src: "/assets/images/webp/sumo.webp", alt: "sumo" },
     { src: "/assets/images/webp/agl-logo.webp", alt: "sumo" },
 ]
-export const SWITCHING_ENERGY = [
-"Say goodbye to confusing energy plans! We simplify the process by providing clear and competitive electricity and gas recommendations. Whether you're moving or just seeking a better deal, our platform connects you with the best energy providers quickly and easily, helping you save on energy bills.", "Benefits of Comparing Energy Plans",
-             "Save money by finding cheaper deals.",
+export const BENIFITS_LIST = [
+    "Save money by finding cheaper deals.",
+    "Get better customer service.",
+    "Explore greener, more sustainable energy options.",
 ]
 export const SWITCH_LIST = [
     { src: "/assets/images/webp/location-card.webp", alt: "location", cardText:"1.Enter Your Location and Preferences", },
@@ -21,26 +22,23 @@ export const SWITCH_LIST = [
 export const COMPREHENSIVE_DETAILS = [
     {
         question: 'Electricity Plan Comparisons',
-        ComparisonsSvg: <Blub />,
-        arrowIcon:<Arrow/>,
+        comparisonsSvg: <Blub />,
         answer: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider..",
     },
     {
         question: 'Gas Plan Comparisons',
-        ComparisonsSvg: <Gas />,
-        arrowIcon: <Arrow />,
+        comparisonsSvg: <Gas />,
         answer: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider.",
     },
     {
         question: 'Internet Plan Comparisons',
-        ComparisonsSvg: <Internet />,
-        arrowIcon: <Arrow />,
+        comparisonsSvg: <Internet />,
+    //
         answer: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider.",
     },
     {
         question: 'Bundle Packages',
-        ComparisonsSvg: <Bundle />,
-        arrowIcon: <Arrow />,
+        comparisonsSvg: <Bundle />,
         answer: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider.",
     },
 ]
