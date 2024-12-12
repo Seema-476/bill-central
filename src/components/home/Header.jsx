@@ -43,10 +43,10 @@ const Header = () => {
                   </ul>
                 </Link>
               ))}
-                <CustomButton text="Get Started" classStyle="bg-white !text-black lg:hidden"/>
+              <CustomButton text="Get Started" classStyle="bg-white !text-black lg:hidden" imgSrc="/assets/images/svg/arrow.svg" classDesign="md:w-6 w-4" />
             </div>
           </div>
-          <CustomButton text="Get Started" classStyle="bg-white !text-black max-lg:hidden" imgSrc="/assets/images/svg/arrow.svg"/>
+          <CustomButton text="Get Started" classStyle="bg-white !text-black max-lg:hidden" imgSrc="/assets/images/svg/arrow.svg" classDesign="md:w-6 w-4" />
         </div>
       </div>
     </div>

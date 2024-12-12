@@ -20,7 +20,7 @@ const Hero = () => {
 
             <form method="get" id="emailForm" className='flex items-center justify-between md:p-[9px_9px_9px_22px] p-[7px_7px_7px_18px] bg-white rounded-tr-[100px] rounded-br-[100px] rounded-bl-[70px] w-full max-w-[476px] max-lg:mx-auto border border-off-white border-opacity-20'>
               <CustomInput type="text" text="Start typing your address" classStyle='outline-none font-normal md:text-base text-sm md:leading-5 !placeholder:text-dark-blue !text-dark-blue' />
-              <CustomButton text="Compare" classStyle="!text-white" imgSrc="/assets/images/svg/arrow-white.svg" />
+              <CustomButton text="Compare" classStyle="!text-white" imgSrc="/assets/images/svg/arrow-white.svg" classDesign="md:w-6 w-4" />
             </form>
           </div>
           <div className='flex justify-center relative z-10'>

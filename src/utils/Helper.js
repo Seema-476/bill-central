@@ -14,10 +14,10 @@ export const BENIFITS_LIST = [
     "Explore greener, more sustainable energy options.",
 ]
 export const SWITCH_LIST = [
-    { src: "/assets/images/webp/location-card.webp", alt: "location", cardText:"1.Enter Your Location and Preferences", },
-    { src: "/assets/images/webp/providers-card.webp", alt: "providers", cardText: "2. Compare Providers", },
-    { src: "/assets/images/webp/switch-easily.webp", alt: "switch", cardText: "3. Switch Easily", },
-    { src: "/assets/images/webp/planning-card.webp", alt: "planning", cardText: "4. Choose the Best Plan", },
+    { src: "/assets/images/webp/location-card.webp", alt: "location", cardText: "1.Enter Your Location and Preferences", cardContent: "1. Location Easily", cardOverView: "Complete the process in just a few clicks. We'll handle the rest and ensure a smooth transition to your new provider." },
+    { src: "/assets/images/webp/providers-card.webp", alt: "providers", cardText: "2. Compare Providers", cardContent: "2. Compare Easily", cardOverView: "Complete the process in just a few clicks. We'll handle the rest and ensure a smooth transition to your new provider." },
+    { src: "/assets/images/webp/switch-easily.webp", alt: "switch", cardText: "3. Switch Easily", cardContent: "3. Switch Easily", cardOverView: "Complete the process in just a few clicks. We'll handle the rest and ensure a smooth transition to your new provider." },
+    { src: "/assets/images/webp/planning-card.webp", alt: "planning", cardText: "4. Choose the Best Plan", cardContent: "4. Plan Easily", cardOverView:"Complete the process in just a few clicks. We'll handle the rest and ensure a smooth transition to your new provider."},
 ]
 export const COMPREHENSIVE_DETAILS = [
     {
@@ -33,7 +33,6 @@ export const COMPREHENSIVE_DETAILS = [
     {
         question: 'Internet Plan Comparisons',
         comparisonsSvg: <Internet />,
-    //
         answer: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider.",
     },
     {

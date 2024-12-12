@@ -12,7 +12,7 @@ const ChooseUtilities = () => {
           classStyle="max-w-[620px] pt-4 xl:pb-[58px] pb-7" />
         <div className='flex xl:gap-6 gap-4 max-lg:flex-wrap'>
           <div className='lg:max-w-[424px] w-full bg-deep-blue rounded lg:p-10 sm:p-7 p-5 max-lg:flex max-sm:flex-col max-sm:items-center  justify-between !max-md:flex-wrap'>
-            <img src="/assets/images/webp/thumb-image.webp" alt="thumb" className='sm:max-w-[232px] max-w-[180px] lg:w-full w-[50%] max-sm:w-full' />
+            <img src="/assets/images/webp/thumb-image.webp" alt="thumb" className='sm:max-w-[232px] max-w-[180px] lg:w-full w-[50%] max-sm:w-full pointer-events-none' />
             <div className='lg:w-full w-[50%] max-sm:w-full'>
               <div>
                 <p className='font-normal xl:text-2xl text-xl leading-6 xl:leading-custom-6xl max-sm:text-center text-white pt-[30px]'>

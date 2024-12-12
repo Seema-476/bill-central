@@ -35,3 +35,6 @@ display: none;
 ::-webkit-scrollbar-thumb{
     background: #00A8E8;
 }
+.swiper-button-prev:hover{
+background-color: black;
+}
