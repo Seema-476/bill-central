@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from '../../common/Heading'
 import Description from '../../common/Description'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation,Autoplay } from 'swiper/modules';
+import { Navigation, Autoplay, Pagination } from 'swiper/modules';
 import { SLIDES } from '../../utils/Helper';
 
 const Testimonials = () => {
@@ -23,6 +23,9 @@ const Testimonials = () => {
           <Swiper
             spaceBetween={24}
             slidesPerView={3}
+            pagination={{
+              clickable: true,
+             }}
             navigation={{ 
               prevEl: '.swiper-button-prev',
               nextEl: '.swiper-button-next',
@@ -32,22 +35,27 @@ const Testimonials = () => {
               delay: 2000, 
               disableOnInteraction: false,
             }}
-            modules={[Navigation, Autoplay]}
+            modules={[Navigation, Pagination, Autoplay]}
             breakpoints={{
               375: {
                 slidesPerView: 1,
+                pagination: { clickable: true },
               },
               576: {
                 slidesPerView: 1,
+                pagination: { clickable: true },
               },
               768: {
                 slidesPerView: 2,
+                pagination: { clickable: true },
               },
               1024: {
                 slidesPerView: 3,
+                pagination:{ clickable: false },
               },
               1280: {
                 slidesPerView: 3,
+                pagination: { clickable: false },
               },
             }}>
 
@@ -64,7 +72,6 @@ const Testimonials = () => {
                 <Description text={slide.description} classStyle="text-start !text-dark-blue" />
               </SwiperSlide>
             ))}
-
           </Swiper>
         </div>
       </div>

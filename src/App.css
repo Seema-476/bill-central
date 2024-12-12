@@ -35,6 +35,15 @@ display: none;
 ::-webkit-scrollbar-thumb{
     background: #00A8E8;
 }
-.swiper-button-prev:hover{
-background-color: black;
+.swiper-pagination-bullet-active{
+    background: #003459 !important;
+}
+.swiper-pagination-bullet{
+    cursor: pointer;
+}
+
+@media (min-width:1280px){
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    display: none;
+}
 }

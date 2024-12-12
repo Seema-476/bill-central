@@ -6,7 +6,7 @@ const ComprehensiveUtility = () => {
   const [accoActive, setAccoActive] = useState(0);
 
   const toggleAccordion = (index) => {
-    setAccoActive(accoActive === index ? accoActive : index);
+    setAccoActive(accoActive === index ? null : index);
   };
   return (
     <div className='xl:py-20 md:py-10 py-6'>

@@ -18,7 +18,7 @@ const SimpleSteps = () => {
           classStyle="max-w-[506px] pt-4 lg:pb-[58px] pb-8" />
       </div>
       <div className='lg:block hidden'>
-        <div className='flex w-full'>
+        <div className='flex w-full 2xl:max-w-[1920px] mx-auto'>
           {SWITCH_LIST.map((obj, item) => (
             <div className='relative group w-full ma x-w-[360px]'>
               <div className='relative'>
