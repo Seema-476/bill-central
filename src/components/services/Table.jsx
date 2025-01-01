@@ -1,11 +1,11 @@
 import React from 'react'
-import { COMPETE_LIST, } from '../../utils/Helper'
+import { TABLE_LIST, } from '../../utils/Helper'
 
 const Table = () => {
     return (
         <div className='min-h-screen flex items-center justify-center'>
             <div className='font-avantt bg-green py-14 px-4 rounded-xl overflow-x-auto'>
-                {COMPETE_LIST.map((obj, i) => (
+                {TABLE_LIST.map((obj, i) => (
                     <div key={i} className={`flex ${i === 0 ? "border-none" : "border-t"} pr-2 w-[568px]`}>
                         <div className={`${i === 0 ? "opacity-0" : ""} w-[140px] py-[18.8px] pr-12 pl-2`}>
                             <p className='text-sm font-normal text-white leading-custom-llg avantt-normal'>{obj.service}</p>

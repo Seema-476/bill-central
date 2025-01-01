@@ -1,5 +1,5 @@
 import { Blub, Gas, Internet, Bundle } from "./Icons"
-import { Right, Wrong } from "./Icons"
+import { Correct, Cross } from "./Icons"
 export const HEADER_TITLE = [{ title: "About", path: "/about" }, { title: "How It Works", path: "/work" }, { title: "Services", path: "/services" }, { title: "Testimonials", path: "/testimonials" }, { title: "Why Us", path: "/whyus" }, { title: "FAQ", path: "/faq" },]
 export const LOGO_LIST = [{ src: "/assets/images/webp/first-energy.webp", alt: "first-image" },
     { src: "/assets/images/webp/blue-nrg.webp", alt: "blue" },
@@ -141,7 +141,7 @@ export const PARMS_DATA = [
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloremque."
     },
 ];
-export const COMPETE_LIST = [
+export const TABLE_LIST = [
     {
         service: "service",
         rift: "Rift",
@@ -151,39 +151,39 @@ export const COMPETE_LIST = [
     },
     {
         service: "Mobile App",
-        rift: <Wrong />,
-        taxscouts: <Wrong />,
-        coconut: <Right />,
-        pie: <Right />,
+        rift: <Cross />,
+        taxscouts: <Cross />,
+        coconut: <Correct />,
+        pie: <Correct />,
     },
 
     {
         service: "Invoicing",
-        rift: <Wrong />,
-        taxscouts: <Wrong />,
-        coconut: <Right />,
-        pie: <Right />,
+        rift: <Cross />,
+        taxscouts: <Cross />,
+        coconut: <Correct />,
+        pie: <Correct />,
     },
     {
         service: "Bookkeeping",
-        rift: <Wrong />,
-        taxscouts: <Wrong />,
-        coconut: <Right />,
-        pie: <Right />,
+        rift: <Cross />,
+        taxscouts: <Cross />,
+        coconut: <Correct />,
+        pie: <Correct />,
     },
     {
         service: "Accountacy support",
-        rift: <Right />,
-        taxscouts: <Right />,
-        coconut: <Wrong />,
-        pie: <Right />,
+        rift: <Correct />,
+        taxscouts: <Correct />,
+        coconut: <Cross />,
+        pie: <Correct />,
     },
     {
         service: "Tax Filing",
-        rift: <Right />,
-        taxscouts: <Right />,
-        coconut: <Right />,
-        pie: <Right />,
+        rift: <Correct />,
+        taxscouts: <Correct />,
+        coconut: <Correct />,
+        pie: <Correct />,
     },
     {
         service: "Fee",
