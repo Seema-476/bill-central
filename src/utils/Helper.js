@@ -1,4 +1,5 @@
 import { Blub, Gas, Internet, Bundle } from "./Icons"
+import { Right, Wrong } from "./Icons"
 export const HEADER_TITLE = [{ title: "About", path: "/about" }, { title: "How It Works", path: "/work" }, { title: "Services", path: "/services" }, { title: "Testimonials", path: "/testimonials" }, { title: "Why Us", path: "/whyus" }, { title: "FAQ", path: "/faq" },]
 export const LOGO_LIST = [{ src: "/assets/images/webp/first-energy.webp", alt: "first-image" },
     { src: "/assets/images/webp/blue-nrg.webp", alt: "blue" },
@@ -97,5 +98,98 @@ export const SLIDES = [
         username: "@jayshah",
         imageUrl: "/assets/images/webp/jayshah.webp",
         description: "Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio adipiscing elit vitae vestibulum vestibulum.",
+    },
+]
+export const FREQUENTLY_ASK_QUESTIONS = [
+    {
+        question: 'Electricity Plan Comparisons',
+        comparisonsSvg: <Blub />,
+        answer: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider..",
+    },
+    {
+        question: 'Gas Plan Comparisons',
+        comparisonsSvg: <Gas />,
+        answer: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider.",
+    },
+    {
+        question: 'Internet Plan Comparisons',
+        comparisonsSvg: <Internet />,
+        answer: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider.",
+    },
+    {
+        question: 'Bundle Packages',
+        comparisonsSvg: <Bundle />,
+        answer: "Whether you want renewable energy, low rates, or flexible contracts, we'll help you find the best provider.",
+    },
+]
+export const PARMS_DATA = [
+    {
+        id: "one",
+        title: 'Lorem ipsum',
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloremque."
+    },
+
+    {
+        id: "two",
+        title: 'Lorem ipsum',
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloremque."
+    },
+
+    {
+        id: "three",
+        title: 'Lorem ipsum',
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloremque."
+    },
+];
+export const COMPETE_LIST = [
+    {
+        service: "service",
+        rift: "Rift",
+        taxscouts: "Taxcouts",
+        coconut: "Coconut",
+        pie: "Pie",
+    },
+    {
+        service: "Mobile App",
+        rift: <Wrong />,
+        taxscouts: <Wrong />,
+        coconut: <Right />,
+        pie: <Right />,
+    },
+
+    {
+        service: "Invoicing",
+        rift: <Wrong />,
+        taxscouts: <Wrong />,
+        coconut: <Right />,
+        pie: <Right />,
+    },
+    {
+        service: "Bookkeeping",
+        rift: <Wrong />,
+        taxscouts: <Wrong />,
+        coconut: <Right />,
+        pie: <Right />,
+    },
+    {
+        service: "Accountacy support",
+        rift: <Right />,
+        taxscouts: <Right />,
+        coconut: <Wrong />,
+        pie: <Right />,
+    },
+    {
+        service: "Tax Filing",
+        rift: <Right />,
+        taxscouts: <Right />,
+        coconut: <Right />,
+        pie: <Right />,
+    },
+    {
+        service: "Fee",
+        rift: "Est: £300 per year",
+        taxscouts: "£300 per year",
+        coconut: "£9.00 p/m £108 per year",
+        pie: "£6.99 or £9.99p/m £59.99 review fee £143.87 per year",
     },
 ]

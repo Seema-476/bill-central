@@ -6,6 +6,7 @@ import SimpleSteps from '../home/SimpleSteps'
 import ComprehensiveUtility from '../home/ComprehensiveUtility'
 import ChooseUtilities from '../home/ChooseUtilities'
 import Testimonials from '../home/Testimonials'
+import FrequentlyAskQuestions from '../home/FrequentlyAskQuestions'
 
 const Home = () => {
   return (
@@ -16,7 +17,8 @@ const Home = () => {
       <SimpleSteps />
       <ComprehensiveUtility />
       <ChooseUtilities />
-      <Testimonials/>
+      <Testimonials />
+      <FrequentlyAskQuestions/>
     </div>
   )
 }

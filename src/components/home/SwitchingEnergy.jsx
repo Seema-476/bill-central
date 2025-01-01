@@ -14,7 +14,7 @@ const SwitchingEnergy = () => {
           </div>
           <div className='xl:w-[58.33%] lg:w-1/2 w-full px-3 flex justify-end max-lg:pb-8'>
             <div>
-              <Heading boldtext="Switching Energy" text="Made Simple " classStyle="lg:text-start text-bold lg:max-w-[409px] max-lg:mx-auto text-normal" />
+              <Heading boldText="Switching Energy" text="Made Simple " classStyle="lg:text-start text-bold lg:max-w-[409px] max-lg:mx-auto text-normal" />
               <Description text="Say goodbye to confusing energy plans! We simplify the process by providing clear and competitive electricity 
             and gas recommendations. Whether you're moving or just seeking a better deal, our platform connects you with the best energy providers
             quickly and easily, helping you save on energy bills." classStyle="lg:text-start lg:max-w-[558px] !m-0 pt-4 lg:pb-[38px] sm:pb-7 pb-5 max-lg:mx-auto" />

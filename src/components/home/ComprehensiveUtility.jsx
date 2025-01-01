@@ -13,7 +13,7 @@ const ComprehensiveUtility = () => {
       <div className='container xl:pr-0'>
         <div className='flex max-lg:flex-wrap flex-row justify-between'>
           <div className='lg:max-w-[558px] w-full lg:pr-4 xl:pr-0 max-lg:pb-7'>
-            <Heading text="Comprehensive Utility " textbold="Comparisons" classStyle="lg:text-start lg:max-w-[456px] xl:pb-[46px] pb-8" />
+            <Heading text="Comprehensive Utility " textBold="Comparisons" classStyle="lg:text-start lg:max-w-[456px] xl:pb-[46px] pb-8" />
             <div className='!duration-700 !transition-all !ease-in-out'>
               {COMPREHENSIVE_DETAILS.map((obj, index) => (
                 <div key={index} onClick={() => toggleAccordion(index)} class={`border border-gray bg-white hover:!shadow-custom-xl !transition-all !ease-in-out !duration-700 rounded md:p-[14px] p-3 mb-6 cursor-pointer  ${accoActive === index ? 'shadow-custom-xl' : ''}`}>

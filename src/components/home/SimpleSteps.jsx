@@ -13,7 +13,7 @@ const SimpleSteps = () => {
   return (
     <div className='xl:py-20 md:py-10 py-6 xl:max-w-[1920] mx-auto'>
       <div className='container'>
-        <Heading text="Simple Steps to " textbold="Switch" />
+        <Heading text="Simple Steps to " textBold="Switch" />
         <Description text="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum"
           classStyle="max-w-[506px] pt-4 lg:pb-[58px] pb-8" />
       </div>

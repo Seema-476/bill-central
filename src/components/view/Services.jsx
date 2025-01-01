@@ -1,8 +1,9 @@
 import React from 'react'
+import Table from '../services/Table'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <Table/>
   )
 }
 

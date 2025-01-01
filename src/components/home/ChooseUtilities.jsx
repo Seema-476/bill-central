@@ -7,7 +7,7 @@ const ChooseUtilities = () => {
   return (
     <div className='xl:py-20 md:py-10 py-6'>
       <div className='container'>
-        <Heading text="Why Choose Us for " textbold="Utilities" />
+        <Heading text="Why Choose Us for " textBold="Utilities" />
         <Description text="This emphasizes both the action and the benefits, drawing in potential customers with a clear value proposition. Let me know if you'd like any adjustments!"
           classStyle="max-w-[620px] pt-4 xl:pb-[58px] pb-7" />
         <div className='flex xl:gap-6 gap-4 max-lg:flex-wrap'>
@@ -32,7 +32,7 @@ const ChooseUtilities = () => {
               {DATA.slice(0, 2).map((item, index) => (
                 <div
                   key={index}
-                  className='lg:max-w-[334px] sm:w-1/2 w-full bg-white border border-silver-gray shadow-custom-xl xl:p-6 p-5 rounded hover:shadow-custom-2xl duration-700'>
+                  className='xl:max-w-[334px] sm:w-1/2 w-full bg-white border border-silver-gray shadow-custom-xl xl:p-6 p-5 rounded hover:shadow-custom-2xl duration-700'>
                   <img src={item.imgSrc} alt={item.altText} className='lg:w-[60px] lg:h-[60px] w-10 h-10' />
                   <p className='font-normal xl:text-2xl text-xl leading-6 xl:leading-custom-6xl text-z-black lg:pt-[18px] pt-3 pb-3'>
                     {item.title}
@@ -45,7 +45,7 @@ const ChooseUtilities = () => {
               {DATA.slice(2, 4).map((item, index) => (
                 <div
                   key={index}
-                  className='lg:max-w-[334px] sm:w-1/2 w-full bg-white border border-silver-gray shadow-custom-xl xl:p-6 p-5 rounded hover:shadow-custom-2xl duration-700'
+                  className='xl:max-w-[334px] sm:w-1/2 w-full bg-white border border-silver-gray shadow-custom-xl xl:p-6 p-5 rounded hover:shadow-custom-2xl duration-700'
                 >
                   <img src={item.imgSrc} alt={item.altText} className='lg:w-[60px] lg:h-[60px] w-10 h-10' />
                   <p className='font-normal xl:text-2xl text-xl leading-6 xl:leading-custom-6xl text-z-black lg:pt-[18px] pt-3 pb-3'>

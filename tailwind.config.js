@@ -21,6 +21,8 @@ module.exports = {
         'custom-3xl': "64px",
       },
       lineHeight: {
+        'custom-lg': "15.6px",
+        'custom-llg': "16.8px",
         'custom-xl': "17.6px",
         'custom-2xl': "18.4px",
         'custom-3xl': "21px",
@@ -41,7 +43,9 @@ module.exports = {
         'dusk-black': "#4B4B4B",
         'z-black': "#010101",
         'gray': "#0000001A",
-        'silver-gray':"#00171F1A",
+        'silver-gray': "#00171F1A",
+        'green': "#026070",
+        'light-green': "#56E3CB",
       },
       boxShadow: {
         'custom-xl':"0px 0px 13.9px 0px #0000001A",
