@@ -2,3 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+/* gilded-games */
+
+html,
+body {
+    scroll-behavior: smooth !important;
+}
+
+.common-button {
+    background: linear-gradient(149.67deg, #815cc8 29.44%, #1babfe 81.54%);
+}
+
+.text-gradient-blue {
+    background: linear-gradient(90deg, #1BABfe 0%, #1BABfe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #815CC8 0%, #1BABFE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-stroke:hover {
+    -webkit-text-stroke: 0.5px white;
+}
+
+@layer utilities {
+    .border-Earn::after {
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+    }
+}
+.swiper-slide{
+    width: 312px !important;
+}
+@media(min-width:926px){
+.platform-right-arrow{
+    bottom: -64px !important;
+    right: 0 !important;
+}
+}
+@media(min-width:768px) and (max-width:775px) {
+    .platform-right-arrow {
+        bottom: -64px !important;
+        right: 0 !important;
+    }
+}

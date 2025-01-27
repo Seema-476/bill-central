@@ -193,3 +193,98 @@ export const TABLE_LIST = [
         pie: "£6.99 or £9.99p/m £59.99 review fee £143.87 per year",
     },
 ]
+// gilded-games
+export const HEADER_LIST = [
+    {
+        title: 'About',
+        link: '#about'
+    },
+    {
+        title: 'Presale $GILD',
+        link: '#presale'
+    },
+    {
+        title: 'Staking $GILD',
+        link: '#staking'
+    },
+    {
+        title: '$GILD Nodes',
+        link: '#nodes'
+    },
+]
+export const TOKEN_DATA = [
+    {
+        img: "/assets/images/svg/token-cube.svg",
+        alt: "Token Info",
+        title: "3 Billion",
+        subTitle: "GILD Token Info",
+    },
+
+    {
+        img: "/assets/images/svg/token-hand.svg",
+        alt: "Pre Sale Token",
+        title: "Pre Sale Token",
+    },
+    {
+        img: "/assets/images/svg/token-people.svg",
+        alt: "Holders",
+        title: "100,000+",
+        subTitle: "Holders",
+    },
+
+    {
+        img: "/assets/images/svg/token-nft.svg",
+        alt: "NFT Sold",
+        title: "2,500+",
+        subTitle: "NFT Sold",
+    },
+];
+
+export const ROADMAP_DATA = [
+    {
+        title: 'Phase 1',
+        question: 'Q1 2022',
+        description: [
+            'Whitelist/Presale Created',
+            'Private Sale',
+            'Public Sale',
+            'Prime Eternal Owner Perks',
+        ],
+    },
+
+    {
+        title: 'Phase 2',
+        question: 'Q2 2022',
+        description: ['Token & Staking Release', 'Staking Gameplay'],
+    },
+
+    {
+        title: 'Phase 3',
+        question: 'Q3 2022',
+        description: [
+            'MVP Gameplay Release',
+            'Battle Modes Release',
+            'Land Gameplay Release',
+            'Gear Forging Release',
+        ],
+    },
+];
+export const BUY_NOW_DATA = [
+    {
+        title: '100,000+ Airdrop',
+    },
+
+    {
+        title: 'NFT $GILD giveaway',
+    },
+
+    {
+        title: 'Announcement and Games',
+    },
+];
+export const POWERED_BY_DATA = [
+    { img: '/assets/images/webp/unreal-engine.webp', alt: 'unreal' },
+    { img: '/assets/images/webp/unswap.webp', alt: 'unswap' },
+    { img: '/assets/images/webp/coin-gecko.webp', alt: 'coin' },
+    { img: '/assets/images/webp/polygon.webp', alt: 'polygon' },
+];

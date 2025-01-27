@@ -7,6 +7,7 @@ import WhyUs from './components/view/WhyUs';
 import Services from './components/view/Services';
 import Testimonials from './components/view/Testimonials';
 import Faq from './components/view/Faq';
+import Gilded from './components/view/Gilded';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/services' element={<Services />} />
           <Route path='/testimonials' element={<Testimonials />} />
           <Route path='/faq' element={<Faq />} />
+          <Route path='/gilded' element={<Gilded />} />
         </Routes>
       </BrowserRouter>
     </>
