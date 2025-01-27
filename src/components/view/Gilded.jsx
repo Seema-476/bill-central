@@ -7,6 +7,7 @@ import TokenInfo from '../gilded/TokenInfo'
 import Roadmap from '../gilded/Roadmap'
 import Uniswap from '../gilded/Uniswap'
 import PoweredBy from '../gilded/PoweredBy'
+import BackToTop from '../../common/BackToTop'
 
 const Gilded = () => {
     return (
@@ -18,7 +19,8 @@ const Gilded = () => {
             <TokenInfo />
             <Roadmap />
             <Uniswap />
-            <PoweredBy/>
+            <PoweredBy />
+            <BackToTop/>
         </>
     )
 }
